@@ -1,0 +1,17 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}*
+
+:root{
+  /* hsl color mode */
+--hue: 213;
+--body-color-p: hsl(var(--hue) 45% 50%);
+--body-color-s: hsl(var(--hue) 74% 50%);
+}
+
+body{
+  background-image: linear-gradient(to right, var(--body-color-p), var(--body-color-s));
+}
+
