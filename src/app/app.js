@@ -5,7 +5,7 @@ const express = require("express");
 const app = express();
 const port = 9000;
 
-app.get("/hello", (request, response) => {
+app.get("/", (request, response) => {
   response.header("Access-Control-Allow-Origin", "*");
   const produto = [
     {

@@ -1,4 +1,4 @@
-const url = "http://127.0.0.1:9000/hello";
+const url = "http://127.0.0.1:9000";
 
 const newUser = {
   nome: "Leite em pó Leão",
@@ -40,9 +40,9 @@ function addNewUser() {
     .catch(error => console.log(error));
 }
 
-//addNewUser();
+addNewUser();
 
-function updateUser() {
+/*function updateUser() {
   axios
     .put(`${url}/2`, updatedUser)
     .then(response => {
@@ -51,4 +51,4 @@ function updateUser() {
     .catch(error => console.log(error));
 }
 
-updateUser();
+updateUser();*/
